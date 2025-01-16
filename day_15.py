@@ -1,12 +1,9 @@
 from typing import List, Tuple
 import numpy as np
 from collections import Counter
-
+from time import time as time
 # I should have build in quicker checks to see if the move is actually valid
 # Now I spend way too much time writing ugly code to fix the issue. 
-# Might refactor this later.
-
-
 
 class Grid:
     def __init__(self, data: List[str], part2: bool = False) -> None:
@@ -20,6 +17,7 @@ class Grid:
 
         self.update_current_pos()
         self.check_only_one_robot()
+
     def create_grid(self) -> List[List[str]]:       
         data_read = self.data.read().split("\n\n")
         # Get the instructions
@@ -180,7 +178,6 @@ class Grid:
         # Check if the next position is a box, if so, check if we are already
         # on it and if not, get the box associated with it
         indices_adjacent_boxes = []
-        added_already = set()
         for indices in own_indices:
             next_pos = (indices[0] + dir[0], indices[1] + dir[1])
             if next_pos in own_indices:
@@ -191,11 +188,8 @@ class Grid:
                 if adjacent_box in indices_adjacent_boxes:
                     continue
                 indices_adjacent_boxes.append(adjacent_box)
-        
-
         return indices_adjacent_boxes
     
-
     def get_objects_from_box_dir(self, box: Tuple[Tuple[int, int], Tuple[int, int]], dir: Tuple[int, int]) -> Tuple[str, str]:
         pos1, pos2 = box
         return (self.grid[pos1[0] + dir[0]][pos1[1] + dir[1]], self.grid[pos2[0] + dir[0]][pos2[1] + dir[1]])
@@ -210,14 +204,10 @@ class Grid:
         queue.append(box_indices)
         positions.append(box_indices)
         seen = set()
-        # print(f"Current position {self.current_pos}")
         while queue:
-            # print(f"\n\nQueue: {queue}")
             curent_box = queue.pop(0)
             seen.add(curent_box)
-            # print(f"Current box {curent_box}")
             surrounding_boxes = self.get_adjecent_boxes(curent_box, dir)
-            # print(f"Surrounding boxes: {surrounding_boxes}")    
             if len(surrounding_boxes) > 0:
                 # check the surrounding boxes. If one box is adjacent to a wall
                 # we return an empty list.
@@ -227,7 +217,6 @@ class Grid:
                     # If any of the next boxes is already adjacent to a wall
                     # we make sure we don't move.
                     object1, object2 = self.get_objects_from_box_dir(box, dir)
-                    # print(f"Surrounding objects of box {box} {object1}, {object2}")
                     if object1 == "#" or object2 == "#":
                         return []
                     queue.append(box)
@@ -240,13 +229,6 @@ class Grid:
                     return []
                 # If either one or both of the objects are a dot, we can move
                 # We do nothing, as we might need to check more options
-        # print(f"Positions before returning {positions} {dir}")
-        # Flatten positions here
-        # print(f"Before flattening: {positions}")
-
-
-
-
 
         positions = self.flatten_box_indices_list(positions)
         positions = list(set(positions)) # make sure we don't have duplicates
@@ -265,15 +247,13 @@ class Grid:
             positions = sorted(positions)[::-1]
         else:
             raise ValueError("Invalid direction...")
-        
 
         # Do a hardcoded check that we surely cannot reach any wall
+        # If we do, return []
         for position in positions:
             object_at_next_pos = str(self.grid[position[0] + dir[0]][position[1] + dir[1]])
             if object_at_next_pos == "#":
                 return []
-        
-
         return positions
 
 
@@ -283,8 +263,6 @@ class Grid:
         dir = self.get_dir[move]
         # Check if the move is possible
         object_at_next_pos = str(self.grid[self.current_pos[0] + dir[0]][self.current_pos[1] + dir[1]])
-        # print(f"Object at next position: {object_at_next_pos} {move}") 
-        # print(f"Current position: {self.current_pos}")  
 
         if self.part2:
             char_to_check1 = "["
@@ -305,64 +283,19 @@ class Grid:
                 positions = self.check_if_pushing_possible(dir)[::-1] # reverse the list
             else:
                 positions = self.check_if_pushing_possible2(dir)
-            
             if positions:
-                # print(f"We make the move\n{move}")
-                # Move all the elements by the current move
-                num_boxes_to_push = len(positions) / 2
-                num_boxes_to_push = 0
-                if num_boxes_to_push > 5:
-                    print(f"Number of boxes to push: {num_boxes_to_push}")
-                    print(f"\nBefore making the move: {move} {self.current_pos}")
-                    self.print_grid()
                 for position in positions:
                     self.move_to_free_spot(position, dir, self.grid[position[0]][position[1]])
                 # In the end, move ourselves
                 self.move_to_free_spot(self.current_pos, dir, "@")
-                if num_boxes_to_push > 5:
-                    print(f"\nAfter making the move: {move} {self.current_pos}")
-                    self.print_grid()
-                    print(f"********************************************************************************************************************")
-
-            else:
-                # print(f"We cannot make the move {move} {self.current_pos}")
-                # self.print_grid()
-                pass
-                # print(f"The boxes cannot be pushed.")
-
 
     def simulate(self):
-        initial_num_boxes = self.count_number_boxes()
-        initial_num_walls = self.count_number_walls()
         for i, move in enumerate(self.instructions):
-            # print()
             self.move_possible(move)
-
-
-            ## DEBUG ##
-            # self.check_only_one_robot()
-            # print(f"\nMaking the move: {move} (move #{i + 1})")
-            # print(f"@ {self.current_pos}")
-            # self.print_grid()
-
-            # if initial_num_walls != self.count_number_walls():
-            #     print(f"Initial number of walls {initial_num_walls}")
-            #     print(f"Now {self.count_number_walls()}")
-            #     raise ValueError("The number of walls has changed.")
-            # get the new amount of number of boxes
-            # if self.count_number_boxes() != initial_num_boxes:
-            #     raise ValueError("The number of boxes has changed!")
-            # if i > 1290:
-            #     print(f"i loop")
-            #     break
-        if self.count_number_boxes() != initial_num_boxes:
-            raise ValueError("The number of boxes has changed!")
 
     def calculate_GPS(self) -> int:
         # 100 * the distance from the top edge, so 100 times the i
         # and add the j component.
-        print(f"\nFinal grid")
-        self.print_grid()
         total = 0
         for i in range(len(self.grid)):
             for j in range(len(self.grid[i])):
@@ -375,9 +308,7 @@ class Grid:
 
 
 grid = Grid(data =  open("day_15/data_15.txt"), part2=True)
-print("Initial grid:")
-grid.print_grid2()
+start = time()
 grid.simulate()
 grid.calculate_GPS()
-
-# 1360257 is incorrect
+print(f"Elapsed time {time() - start:.3f}")
