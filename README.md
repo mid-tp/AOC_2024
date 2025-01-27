@@ -7,3 +7,19 @@ Things I would do differently the next years:
 
 Some tips for next years:
 - Practice on some of the recursion problems. Rewrite problems after seeing a smarter/easier solution method for days which were difficult at first.
+
+
+
+| Question   | String Manipulation | Math | Simulation | Straightforward | Maze | Other |
+|------------|---------------------|------|------------|-----------------|------|-------|
+| Day 1      |                     |      |            |         ✔       |      |       |
+| Day 2      |                     |      |            |                 |      |       |
+| Day 3      |                     |      |            |                 |      |       |
+| Day 4      |                     |      |            |                 |      |       |
+| Day 5      |                     |      |            |                 |      |       |
+| Day 6      |                     |      |            |                 |      |       |
+| Day 7      |                     |      |            |                 |      |       |
+| Day 8      |                     |      |            |                 |      |       |
+| Day 9      |                     |      |            |                 |      |       |
+| Day 10     |                     |      |            |                 |      |       |
+| ...        |                     |      |            |                 |      |       |
