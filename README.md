@@ -12,7 +12,7 @@ Some tips for next years:
 
 | Question   | String Manipulation | Math | Simulation | Straightforward | Maze | Other |
 |------------|---------------------|------|------------|-----------------|------|-------|
-| Day 1      |                     |      |            |         ✔       |      |       |
+| [Day 1](https://github.com/UpzYaDead/AOC_2024/tree/main/day1)      |                     |      |            |         ✔       |      |       |
 | Day 2      |                     |      |            |                 |      |       |
 | Day 3      |                     |      |            |                 |      |       |
 | Day 4      |                     |      |            |                 |      |       |
