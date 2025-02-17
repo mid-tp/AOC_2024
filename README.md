@@ -25,14 +25,14 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 | [Day 15: Warehouse Woes](day15/) | 15.1 ✅ | 15.2 ✅ | Moving objects in a grid | More advanced part 1 | 🟢 Easy | 🟡 Medium |
 | [Day 16: Reindeer Maze](day16/) | 16.1 ✅ | 16.2 ✅ | Dijkstra with a twist | Heuristic Search | 🔴 Hard ❌ | 🔴 Hard ❌ |
 | [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 | Modular Arithmetic | Time-Based Computation | 🟢 Easy | 🔴 Hard ❌ |
-| [Day 18: RAM Run](day18/) | 18.1 ✅ | 18.2 ✅ | Knapsack | Memory Allocation | 🔴 Hard | 🟡 Medium |
-| [Day 19: Linen Layout](day19/) | 19.1 ✅ | 19.2 ✅ | Greedy Algorithm | Graph Optimization | 🟡 Medium | 🟡 Medium |
-| [Day 20: Race Condition](day20/) | 20.1 ✅ | 20.2 ✅ | Scheduling | Concurrency Handling | 🔴 Hard | 🟡 Medium |
-| [Day 21: Keypad Conundrum](day21/) | 21.1 ✅ | 21.2 ❌ | State Machine | Input Processing | 🟡 Medium | 🟡 Medium |
-| [Day 22: Monkey Market](day22/) | 22.1 ✅ | 22.2 ✅ | Game Theory | Probability & Strategy | 🔴 Hard | 🟡 Medium |
-| [Day 23: LAN Party](day23/) | 23.1 ✅ | 23.2 ✅ | Graph Coloring | Resource Allocation | 🟡 Medium | 🟡 Medium |
-| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ❌ | Geometry | Vector Mathematics | 🟡 Medium | 🟡 Medium |
-| [Day 25: Code Chronicle](day25/) | 25.1 ✅ | 25.2 ✅ | Data Structures | Graph Theory | 🟢 Easy | 🟡 Medium |
+| [Day 18: RAM Run](day18/) | 18.1 ✅ | 18.2 ✅ | BFS | Checking when no path in a grid | 🟢 Easy | 🟢 Easy |
+| [Day 19: Linen Layout](day19/) | 19.1 ✅ | 19.2 ✅ | Recursion | Recursion and keeping track of paths | 🔴 Hard | 🔴 Hard ❌ |
+| [Day 20: Race Condition](day20/) | 20.1 ✅ | 20.2 ✅ | BFS/Dijkstra | Changing grid/possible paths to reach end | 🟡 Medium | 🟡 Medium |
+| [Day 21: Keypad Conundrum](day21/) | 21.1 ✅ | 21.2 ❌ | Brute force | Recursion | 🟡 Medium | 🔴 Hard ❌ |
+| [Day 22: Monkey Market](day22/) | 22.1 ✅ | 22.2 ✅ | Looping over data and following rules | Extracting as much info in one loop | 🟡 Medium | 🟡 Medium |
+| [Day 23: LAN Party](day23/) | 23.1 ✅ | 23.2 ✅ | Graphs, connected components | Largest connected components | 🟢 Easy | 🟡 Medium |
+| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ❌ | Following rules, looping over data | Bit adders | 🟢 Easy | 🔴 Hard ❌ |
+| [Day 25: Code Chronicle](day25/) | 25.1 ✅ | 25.2 ✅ | Grid parsing | N.A. | 🟢 Easy | N.A. |
 
 ---
 
