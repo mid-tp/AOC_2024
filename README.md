@@ -6,7 +6,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 
 ## 📜 Progress Overview
 
-| AoC Puzzle | Part One | Part Two | Type (Part 1) | Type (Part 2) | Difficulty (P1) | Difficulty (P2) |
+| AoC Puzzle | Part One | Part Two | Type (Part 1) | Type (Part 2) | Difficulty (Part 1) | Difficulty (Part 2) |
 |------------|---------|---------|---------------|---------------|----------------|----------------|
 | [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | Sorting lists | Sorting lists | 🟢 Easy | 🟢 Easy |
 | [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | File Parsing | Data Processing | 🟢 Easy | 🟢 Easy |
@@ -48,7 +48,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 
 ---
 
-## 🎯 Notes for Future Years
+## Notes for Future Years
 
 ### **Things I would do differently:**
 - When modifying values in a grid, build in **checks for elements that shouldn't be changed**.  
