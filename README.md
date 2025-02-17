@@ -8,8 +8,8 @@ My solutions to the Advent of Code puzzles for the 2024 edition, written in Pyth
 
 | AoC Puzzle | Part One | Part Two | Type part 1 | Type part 2 |  Difficulty |
 |------------|---------|---------|------|------|------------|
-| [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | // | 🟢 Easy | 🟢 Easy  |
-| [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | // | 🟢 Easy | 🟢 Easy |
+| [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | // | // | 🟢 Easy | 🟢 Easy  |
+| [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | // | // | 🟢 Easy | 🟢 Easy |
 | [Day 3: Mull It Over](day3/) | 3.1 ✅ | 3.2 ✅ | Regular expressions | t  | 🟢 Easy | 🟢 Easy |
 | [Day 4: Ceres Search](day4/) | 4.1 ✅ | 4.2 ✅ | Words in a grid | t | 🟢 Easy | 🟢 Easy |
 | [Day 5: Print Queue](day5/) | 5.1 ✅ | 5.2 ✅ | // | | 🟢 Easy | 🟢 Easy |
