@@ -8,20 +8,20 @@ My solutions to the Advent of Code puzzles for the 2024 edition, written in Pyth
 
 | AoC Puzzle | Part One | Part Two | Type part 1 | Type part 2 |  Difficulty part one | Difficulty part two |
 |------------|---------|---------|------------|------------|------|------|
-| [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | // | // | 🟢 Easy | 🟢 Easy  |
+| [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | Sorting lists | Sorting lists | 🟢 Easy | 🟢 Easy  |
 | [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | // | // | 🟢 Easy | 🟢 Easy |
-| [Day 3: Mull It Over](day3/) | 3.1 ✅ | 3.2 ✅ | Regular expressions | t  | 🟢 Easy | 🟢 Easy |
+| [Day 3: Mull It Over](day3/) | 3.1 ✅ | 3.2 ✅ | Regular expressions | //  | 🟢 Easy | 🟢 Easy |
 | [Day 4: Ceres Search](day4/) | 4.1 ✅ | 4.2 ✅ | Words in a grid | t | 🟢 Easy | 🟢 Easy |
 | [Day 5: Print Queue](day5/) | 5.1 ✅ | 5.2 ✅ | // | | 🟢 Easy | 🟢 Easy |
-| [Day 6: Guard Gallivant](day6/) | 6.1 ✅ | 6.2 ✅ | Grid simulation|  | 🟢 Easy | 🟢 Easy |
-| [Day 7: Bridge Repair](day7/) | 7.1 ✅ | 7.2 ✅ | Recursion | t | 🟡 Medium | 🟡 Medium |
-| [Day 8: Resonant Collinearity](day8/) | 8.1 ✅ | 8.2 ✅ | Grid string search |  | 🟢 Easy | 🟢 Easy |
-| [Day 9: Disk Fragmenter](day9/) | 9.1 ✅ | 9.2 ✅ | String manipulation | t | 🟢 Easy | 🟢 Easy |
-| [Day 10: Hoof It](day10/) | 10.1 ✅ | 10.2 ✅ | Neighbouring grid values | t | 🟢 Easy | 🟢 Easy |
-| [Day 11: Plutonian Pebbles](day11/) | 11.1 ✅ | 11.2 ✅ | Recursion | t | 🟡 Medium 🟡 Medium |
-| [Day 12: Garden Groups](day12/) | 12.1 ✅ | 12.2 ✅ | Regions in grid | t | 🟡 Medium 🟡 Medium |
+| [Day 6: Guard Gallivant](day6/) | 6.1 ✅ | 6.2 ✅ | Grid simulation| Storing path and direction (or brute force)  | 🟢 Easy | 🟢 Easy |
+| [Day 7: Bridge Repair](day7/) | 7.1 ✅ | 7.2 ✅ | Recursion | // | 🟡 Medium | 🟡 Medium |
+| [Day 8: Resonant Collinearity](day8/) | 8.1 ✅ | 8.2 ✅ | Grid string search | Adaptation to 8.1 | 🟢 Easy | 🟢 Easy |
+| [Day 9: Disk Fragmenter](day9/) | 9.1 ✅ | 9.2 ✅ | String manipulation | // | 🟢 Easy | 🟢 Easy |
+| [Day 10: Hoof It](day10/) | 10.1 ✅ | 10.2 ✅ | Neighbouring grid values | // | 🟢 Easy | 🟢 Easy |
+| [Day 11: Plutonian Pebbles](day11/) | 11.1 ✅ | 11.2 ✅ | Recursion | Recursion | 🟢 Easy | 🟡 Medium |
+| [Day 12: Garden Groups](day12/) | 12.1 ✅ | 12.2 ✅ | Regions in grid | Borders of regions | 🟡 Medium 🟡 Medium |
 | [Day 13: Claw Contraption](day13/) | 13.1 ✅ | 13.2 ✅ | Linear algebra | t | 🟢 Easy | | 🟢 Easy |
-| [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | 🟡 Medium | t | 🟡 Medium |
+| [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | ? | Visual inspection | | 🟡 Medium 🟡 Medium |
 | [Day 15: Warehouse Woes](day15/) | 15.1 ✅ | 15.2 ✅ | Sorting | t | 🟡 Medium | 🟡 Medium |
 | [Day 16: Reindeer Maze](day16/) | 16.1 ✅ | 16.2 ✅ | Pathfinding (A*) | t | 🔴 Hard | 🟡 Medium |
 | [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 ❌ | Modular Arithmetic | t | 🟡 Medium | 🟡 Medium |
