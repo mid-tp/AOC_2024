@@ -7,7 +7,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024)
 My solutions to the Advent of Code puzzles for the 2024 edition, written in Python.
 
 | AoC Puzzle | Part One | Part Two | Type part 1 | Type part 2 |  Difficulty |
-|------------|---------|---------|------|------|------------|
+|------------|---------|---------|------------|------------|------------|
 | [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | // | // | 🟢 Easy | 🟢 Easy  |
 | [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | // | // | 🟢 Easy | 🟢 Easy |
 | [Day 3: Mull It Over](day3/) | 3.1 ✅ | 3.2 ✅ | Regular expressions | t  | 🟢 Easy | 🟢 Easy |
