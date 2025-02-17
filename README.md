@@ -31,8 +31,8 @@ My solutions to the Advent of Code puzzles for the 2024 edition, written in C#.
 | [Day 21: Keypad Conundrum](day21/) | 21.1 ✅ | 21.2 ❌ | State Machine | 🟡 Medium |
 | [Day 22: Monkey Market](day22/) | 22.1 ✅ | 22.2 ✅ | Game Theory | 🔴 Hard |
 | [Day 23: LAN Party](day23/) | 23.1 ✅ | 23.2 ✅ | Graph Coloring | 🟡 Medium |
-| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ❌ | Geometry | 🔴 Hard |
-| [Day 25: Code Chronicle](day25/) | 25.1 ❌ | 25.2 ❌ | Data Structures | 🔴 Hard |
+| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ❌ | Geometry | ❌ |
+| [Day 25: Code Chronicle](day25/) | 25.1 | 25.2 | Data Structures | 🟢 Easy |
 
 ## Legend
 
