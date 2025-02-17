@@ -7,7 +7,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 ## 📜 Progress Overview
 
 | AoC Puzzle | Part One | Part Two | Type (Part 1) | Type (Part 2) | Difficulty (Part 1) | Difficulty (Part 2) |
-|------------|---------|---------|---------------|---------------|--------------------|--------------------|
+|------------|------------|------------|---------------|---------------|--------------------|--------------------|
 | [Day 1: Historian Hysteria](day1/) | 1.1 ✅ | 1.2 ✅ | Sorting lists | Sorting lists | 🟢 Easy | 🟢 Easy |
 | [Day 2: Red-Nosed Reports](day2/) | 2.1 ✅ | 2.2 ✅ | // | // | 🟢 Easy | 🟢 Easy |
 | [Day 3: Mull It Over](day3/) | 3.1 ✅ | 3.2 ✅ | Regular expressions | // | 🟢 Easy | 🟢 Easy |
