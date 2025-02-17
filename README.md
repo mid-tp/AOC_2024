@@ -21,7 +21,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 | [Day 11: Plutonian Pebbles](day11/) | 11.1 ✅ | 11.2 ✅ | Recursion | Dynamic Programming | 🟢 Easy | 🟡 Medium |
 | [Day 12: Garden Groups](day12/) | 12.1 ✅ | 12.2 ✅ | Regions in grid | Borders of regions | 🟡 Medium | 🟡 Medium |
 | [Day 13: Claw Contraption](day13/) | 13.1 ✅ | 13.2 ✅ | Linear algebra | Transformations | 🟢 Easy | 🟢 Easy |
-| [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | Cellular Automata | Visual Simulation | 🟡 Medium | 🟡 Medium |
+| [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | Simulation of steps in a grid | Visual inspection | | 🟡 Medium 🟡 Medium |
 | [Day 15: Warehouse Woes](day15/) | 15.1 ✅ | 15.2 ✅ | Sorting | Inventory Management | 🟡 Medium | 🟡 Medium |
 | [Day 16: Reindeer Maze](day16/) | 16.1 ✅ | 16.2 ✅ | Pathfinding (A*) | Heuristic Search | 🔴 Hard | 🟡 Medium |
 | [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 ❌ | Modular Arithmetic | Time-Based Computation | 🟡 Medium | 🟡 Medium |
