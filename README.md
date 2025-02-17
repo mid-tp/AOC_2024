@@ -31,7 +31,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 | [Day 21: Keypad Conundrum](day21/) | 21.1 ✅ | 21.2 ✅❌ | Brute force | Recursion | 🟡 Medium | 🔴 Hard ❌ |
 | [Day 22: Monkey Market](day22/) | 22.1 ✅ | 22.2 ✅ | Looping over data and following rules | Extracting as much info in one loop | 🟡 Medium | 🟡 Medium |
 | [Day 23: LAN Party](day23/) | 23.1 ✅ | 23.2 ✅ | Graphs, connected components | Largest connected components | 🟢 Easy | 🟡 Medium |
-| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ✅❌ | Following rules, looping over data | Bit adders | 🟢 Easy | 🔴 Hard ❌ |
+| [Day 24: Crossed Wires](day24/) | 24.1 ✅ | 24.2 ✅❌ | Following rules, looping over data | Ripple carry adder | 🟢 Easy | 🔴 Hard ❌ |
 | [Day 25: Code Chronicle](day25/) | 25.1 ✅ | 25.2 ✅ | Grid parsing | N.A. | 🟢 Easy | N.A. |
 
 ---
