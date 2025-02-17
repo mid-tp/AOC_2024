@@ -62,7 +62,3 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 - **Debug visually** when working with grids (print intermediate steps!).  
 
 ---
-
-This version keeps **your structure**, improves **readability**, and **fills in missing parts** while keeping it **clean and formatted well**.  
-
-Let me know if you want further refinements! 🚀
