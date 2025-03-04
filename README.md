@@ -16,15 +16,15 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 | [Day 6: Guard Gallivant](day6/) | 6.1 ✅ | 6.2 ✅ | Grid simulation | Storing path and direction (or brute force) | 🟢 Easy | 🟢 Easy |
 | [Day 7: Bridge Repair](day7/) | 7.1 ✅ | 7.2 ✅ | Recursion | // | 🟡 Medium | 🟡 Medium |
 | [Day 8: Resonant Collinearity](day8/) | 8.1 ✅ | 8.2 ✅ | Grid string search | Adaptation to 8.1 | 🟢 Easy | 🟢 Easy |
-| [Day 9: Disk Fragmenter](day9/) | 9.1 ✅ | 9.2 ✅ | String manipulation | // | 🟢 Easy | 🟢 Easy |
+| [Day 9: Disk Fragmenter](day9/) | 9.1 ✅ | 9.2 ✅ | String manipulation |  | 🟢 Easy | 🟢 Easy |
 | [Day 10: Hoof It](day10/) | 10.1 ✅ | 10.2 ✅ | Neighbouring grid values | // | 🟢 Easy | 🟢 Easy |
 | [Day 11: Plutonian Pebbles](day11/) | 11.1 ✅ | 11.2 ✅ | Recursion | Recursion | 🟢 Easy | 🟡 Medium |
 | [Day 12: Garden Groups](day12/) | 12.1 ✅ | 12.2 ✅ | Regions in grid | Borders of regions | 🟡 Medium | 🟡 Medium |
-| [Day 13: Claw Contraption](day13/) | 13.1 ✅ | 13.2 ✅ | Linear algebra | Transformations | 🟢 Easy | 🟢 Easy |
+| [Day 13: Claw Contraption](day13/) | 13.1 ✅ | 13.2 ✅ | Linear algebra | Linear algebra | 🟢 Easy | 🟢 Easy |
 | [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | Simulation of steps in a grid | Visual inspection | 🟡 Medium | 🟡 Medium |
 | [Day 15: Warehouse Woes](day15/) | 15.1 ✅ | 15.2 ✅ | Moving objects in a grid | More advanced part 1 | 🟢 Easy | 🟡 Medium |
-| [Day 16: Reindeer Maze](day16/) | 16.1 ✅❌ | 16.2 ✅❌ | Dijkstra with a twist | Heuristic Search | 🔴 Hard ❌ | 🔴 Hard ❌ |
-| [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 ✅❌ | Modular Arithmetic | Time-Based Computation | 🟢 Easy | 🔴 Hard ❌ |
+| [Day 16: Reindeer Maze](day16/) | 16.1 ✅❌ | 16.2 ✅❌ | Dijkstra with a twist | Unique paths from Dijkstra | 🔴 Hard ❌ | 🔴 Hard ❌ |
+| [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 ✅❌ | Logic operations | Input hacking | 🟢 Easy | 🔴 Hard ❌ |
 | [Day 18: RAM Run](day18/) | 18.1 ✅ | 18.2 ✅ | BFS | Checking when no path in a grid | 🟢 Easy | 🟢 Easy |
 | [Day 19: Linen Layout](day19/) | 19.1 ✅ | 19.2 ✅❌ | Recursion | Recursion and keeping track of paths | 🔴 Hard | 🔴 Hard ❌ |
 | [Day 20: Race Condition](day20/) | 20.1 ✅ | 20.2 ✅ | BFS/Dijkstra | Changing grid/possible paths to reach end | 🟡 Medium | 🟡 Medium |
