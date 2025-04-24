@@ -23,7 +23,7 @@ My code for [Advent of Code 2024](https://adventofcode.com/2024), written in Pyt
 | [Day 13: Claw Contraption](day13/) | 13.1 ✅ | 13.2 ✅ | Linear algebra | Linear algebra | 🟢 Easy | 🟢 Easy |
 | [Day 14: Restroom Redoubt](day14/) | 14.1 ✅ | 14.2 ✅ | Simulation of steps in a grid | Visual inspection | 🟡 Medium | 🟡 Medium |
 | [Day 15: Warehouse Woes](day15/) | 15.1 ✅ | 15.2 ✅ | Moving objects in a grid | More advanced part 1 | 🟢 Easy | 🟡 Medium |
-| [Day 16: Reindeer Maze](day16/) | 16.1 ✅ | 16.2 ✅❌ | Dijkstra with a twist | Unique paths from Dijkstra | 🔴 Hard ❌ | 🔴 Hard ❌ |
+| [Day 16: Reindeer Maze](day16/) | 16.1 ✅ | 16.2 ✅❌ | Dijkstra with a twist | Unique paths from Dijkstra | 🔴 Hard  | 🔴 Hard ❌ |
 | [Day 17: Chronospatial Computer](day17/) | 17.1 ✅ | 17.2 ✅❌ | Logic operations | Input hacking | 🟢 Easy | 🔴 Hard ❌ |
 | [Day 18: RAM Run](day18/) | 18.1 ✅ | 18.2 ✅ | BFS | Checking when no path in a grid | 🟢 Easy | 🟢 Easy |
 | [Day 19: Linen Layout](day19/) | 19.1 ✅ | 19.2 ✅❌ | Recursion | Recursion and keeping track of paths | 🔴 Hard | 🔴 Hard ❌ |
